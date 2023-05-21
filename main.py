@@ -9,7 +9,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.chains import RetrievalQAWithSourcesChain
 from langchain import OpenAI
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 # Define constants for file paths
 DOCS_FILE_PATH = "docs.pkl"
